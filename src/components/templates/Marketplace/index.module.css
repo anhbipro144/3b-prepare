@@ -1,0 +1,42 @@
+.rightBlock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.wrapper-header-content {
+  margin: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftBlock {
+  gap: 34px;
+  display: flex;
+  color: white;
+}
+
+.wrapper-header-content .ant-select-selector {
+  background-color: transparent !important;
+  color: white;
+}
+
+.boxListCard {
+  display: flex;
+  flex-wrap: wrap !important;
+  gap: 12px;
+}
+
+.boxListCard > div {
+  width: 372px !important;
+  max-width: 372px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .boxListCard div {
+    width: 100% !important;
+  }
+}

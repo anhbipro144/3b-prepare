@@ -1,0 +1,128 @@
+.profile {
+  width: 480px;
+  margin: auto;
+  background: #1d1f2f;
+  box-shadow: 0px 9px 95px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.boxAvatar {
+  padding: 24px;
+  text-align: center;
+  border-bottom: 1px solid rgba(83, 86, 251, 0.16);
+}
+
+.boxAvatar img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.boxAvatar > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.boxAvatar > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.boxAvatar > div > span {
+  width: 47%;
+}
+
+.boxAvatar > div > span :global(.ant-upload-select),
+.boxAvatar > div > span button {
+  width: 100%;
+}
+
+.profile button {
+  color: white;
+  background: linear-gradient(134.38deg, #f539f8 0%, #c342f9 43.55%, #5356fb 104.51%);
+  border-radius: 41px;
+  padding: 12px 16px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.formContent {
+  padding: 24px;
+  padding-bottom: 1px;
+}
+
+.formContent h4 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formContent label {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.formContent input {
+  color: white !important;
+  border: 1px solid rgba(83, 86, 251, 0.16);
+  border-radius: 44px;
+}
+.formContent input::placeholder,
+.formContent textarea::placeholder {
+  color: #a7a9b5;
+}
+.formContent input:focus,
+.formContent input:active {
+  outline: none;
+  border: 1px solid rgba(83, 86, 251, 0.16);
+}
+.formContent textarea {
+  background: unset;
+  color: white !important;
+  border: 1px solid rgba(83, 86, 251, 0.16);
+  border-radius: 20px;
+  resize: none;
+  padding: 10px;
+}
+
+.boxForm {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.boxForm label {
+  width: 30%;
+}
+.boxForm input,
+.boxForm textarea {
+  width: 70%;
+}
+
+.btnSubmit {
+  margin-top: 30px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boxAvatar > div {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .boxAvatar > div > span {
+    width: 100%;
+  }
+}

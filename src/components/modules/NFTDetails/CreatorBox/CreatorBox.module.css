@@ -1,0 +1,202 @@
+.cardcreatorbox {
+  padding: 14px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: box-shadow 0.3s, border-color 0.3s;
+  margin: auto;
+  padding: 10px;
+  background-color: var(--color-white);
+}
+
+.content {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.id {
+  text-align: left;
+  padding: 10px 0;
+  color: var(--color-purle);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.accountName {
+  font-size: 40px;
+  color: #000;
+  border-bottom: solid 1px gray;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.viewArea {
+  font-size: 18px;
+  align-items: right;
+}
+
+.inforAvatar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.inforAvatarDetail span:nth-child(1) {
+  color: var(--color-grey);
+}
+
+.accountTag {
+  font-size: 15px;
+  align-items: right;
+}
+
+.tag {
+  width: auto;
+  border-radius: 10px;
+  background: #222222;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px 0;
+  margin-top: 5px;
+  text-align: justify;
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+/* .avatarCollection:global(.ant-avatar) {
+  bottom: -5px;
+  left: 30%;
+  transform: translate(-50%, 0px);
+  border: 2px solid white;
+  background-color: #fea013;
+} */
+
+.titleCollection {
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 300px) {
+  .cardcreatorbox {
+    margin: auto;
+  }
+
+  .accountTag {
+    font-size: 14px;
+    align-items: right;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .cardcreatorbox {
+    margin: auto;
+  }
+
+  .accountTag {
+    font-size: 14px;
+    align-items: right;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .cardcreatorbox {
+    margin: auto;
+  }
+
+  .accountTag {
+    font-size: 14px;
+    align-items: right;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+}
+
+.infoBottom {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .infoBottom {
+    margin-left: 20px !important;
+  }
+
+  .titleCollection {
+    font-weight: bold;
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 2000px) {
+  .cardcreatorbox {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1550px) and (max-width: 1800px) {
+  .cardcreatorbox {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1550px) {
+  .cardcreatorbox {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1450px) {
+  .cardcreatorbox {
+    padding: 14px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: auto;
+    cursor: pointer;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    margin: auto;
+    padding: 10px;
+  }
+}

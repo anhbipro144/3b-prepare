@@ -1,0 +1,32 @@
+.wrapper-input-header {
+  height: 50px;
+  width: 376px;
+  left: 0px;
+  background: #1d1f2f;
+  border-radius: 60px;
+  padding: 0 26px;
+}
+
+.wrapper-input-header > div {
+  padding-right: 10px;
+  left: 10px;
+  top: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper-input-header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .wrapper-input-header {
+    width: 100%;
+  }
+}

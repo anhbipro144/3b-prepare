@@ -1,0 +1,454 @@
+.table :global(table) {
+  background-color: #f3f3f3;
+  /* border-spacing: 0 1rem !important;
+    border-collapse: separate; */
+}
+
+.table :global(table tr td.ant-table-cell:first-child) {
+  /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+}
+
+.table :global(table tr td.ant-table-cell:last-child) {
+  /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+}
+.textArea {
+  background-color: #fff !important;
+}
+
+:where(.ant-input:focus),
+:where(.ant-input-focused) {
+  background-color: #fff !important;
+}
+.table :global(.ant-table) {
+  overflow-x: auto;
+}
+
+.table :global(.ant-table-thead) {
+  background: transparent;
+}
+
+.table :global(.ant-table-thead .ant-table-cell) {
+  background: #fff;
+  border-top-left-radius: unset;
+  font-weight: 700;
+  color: #000;
+}
+
+.table :global(.ant-table-thead .ant-table-cell::before) {
+  content: unset !important;
+}
+
+.table :global(.ant-table-tbody) {
+  background: #fff;
+}
+
+.table :global(.ant-table-row:hover .ant-table-cell) {
+  background: rgb(240, 240, 240) !important;
+  color: #fea013;
+}
+
+.table :global(.ant-table-cell > *) {
+  color: #000000 !important;
+}
+
+.table :global(.ant-tag) {
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 7px 25px;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.table :global(.ant-tag::first-letter) {
+  text-transform: uppercase;
+}
+
+.table :global(.ant-tag.tag-Buy),
+.table :global(.ant-tag.tag-Sell) {
+  background: -webkit-linear-gradient(#fea013, #fea013);
+  background-color: transparent !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #fea013;
+}
+
+.table :global(.ant-tag.tag-Waiting) {
+  background: -webkit-linear-gradient(#b5473a, #b5473a);
+  background-color: transparent !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #b5473a;
+  width: 120px;
+  text-align: center;
+}
+
+.table :global(.ant-tag.tag-Confirmed) {
+  background: -webkit-linear-gradient(#36a920, #36a920);
+  background-color: transparent !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #36a920;
+  width: 120px;
+  text-align: center;
+}
+.title {
+  background: linear-gradient(180deg, #fea013 0%, #fea013 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.balanceWrapper {
+  max-width: 1200px;
+  margin: 30px auto !important;
+  text-align: center;
+  padding: 0 15px;
+  flex: 1;
+}
+.createForm {
+  padding: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 50px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.formBore {
+  background: #fff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.btnCreate {
+  width: 100% !important;
+  border-radius: 12px !important;
+  /* background: #000 !important; */
+  border: none !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+}
+
+.btnCreate:hover {
+  background-color: #2cace2 !important;
+  width: auto;
+  font-weight: bold;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 950px) {
+  .createForm {
+    padding-top: 50px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    max-width: 1030px !important;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .createForm {
+    padding: 20px;
+    max-width: 1030px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mycollectionwrap {
+    margin-bottom: 40px !important;
+  }
+}
+
+.nftImage :global(.ant-upload.ant-upload-select-picture-card) {
+  width: 100%;
+}
+
+.CreateWrapper {
+  max-width: 1200px;
+  margin: 30px auto !important;
+  padding: 20px 15px;
+  flex: 1;
+  background: #1d1f2f;
+  box-shadow: 0px 9px 95px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  margin-top: 34px !important;
+}
+
+.CreateNFT {
+  padding: 0px 24px 23px;
+}
+
+.CreateNFT h1 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.CreateNFT label {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.CreateNFT input {
+  color: #ffffff !important;
+  margin-top: 7px !important;
+  background: #11131f;
+  border: 1px solid rgba(83, 86, 251, 0.16);
+  border-radius: 44px;
+  padding: 25px 20px !important;
+}
+
+.CreateNFT input::placeholder,
+.CreateNFT textarea::placeholder {
+  color: #a7a9b5;
+}
+
+.CreateNFT input:focus,
+.CreateNFT input:active {
+  outline: none;
+  background: #11131f;
+  border: 1px solid rgba(83, 86, 251, 0.16);
+  border-radius: 44px;
+}
+
+.CreateNFT textarea {
+  padding: 15px;
+  border-radius: 20px;
+  color: #ffffff !important;
+  background: #11131f !important;
+  border: 1px solid rgba(83, 86, 251, 0.16);
+  margin-top: 7px !important;
+  resize: none;
+}
+
+.CreateNFT h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.CreateNFT > div > p {
+  color: #a7a9b5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.dragger :global(.ant-upload-drag) {
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  border: 3px dashed rgba(83, 86, 251, 0.16);
+}
+
+.dragger :global(.ant-upload-text) {
+  font-weight: 700;
+  font-size: 20px !important;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.dragger :global(.ant-upload-text) span {
+  color: #5356fb !important;
+}
+
+.dragger video {
+  margin: auto;
+}
+
+.dragger .boxMp3 {
+  color: #ffffff !important;
+  font-size: 18px;
+}
+
+.subTitle {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.explain {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a7a9b5;
+}
+
+.listOption {
+  display: flex;
+  margin-top: 13px;
+  gap: 20px;
+}
+
+.listOption > div {
+  opacity: 0.4;
+  width: 120px;
+  background: #11131f;
+  border-radius: 4px;
+  text-align: center;
+  padding: 12px 8px;
+  color: white;
+}
+
+.listOption .boxImg {
+  padding-top: 6px;
+}
+
+.listOption .name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.listOption .active {
+  opacity: 1 !important;
+  background-image: linear-gradient(to right bottom, #f539f8, #5356fb);
+  border-radius: 4px;
+  padding: 1px;
+}
+
+.listOption .active > div {
+  width: 100%;
+  height: 100%;
+  background-color: #11131f;
+  padding: 11px 7px;
+  border-radius: 4px;
+}
+
+.dec {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #a7a9b5;
+  margin-bottom: 2px;
+}
+
+.dec span {
+  color: #ffffff;
+}
+
+.select {
+  margin-top: 7px !important;
+}
+
+.select :global(.ant-select-selector) {
+  color: #ffffff !important;
+  border-radius: 44px;
+  padding: 25px 20px !important;
+  background: #11131f !important;
+  border: 1px solid rgba(83, 86, 251, 0.16) !important;
+}
+
+.select :global(.ant-select-selection-item) {
+  color: #ffffff !important;
+}
+
+.select :global(.ant-select-arrow) {
+  display: none;
+}
+
+.boxETH {
+  position: relative;
+}
+
+.boxETH > div:first-child {
+  position: absolute;
+  top: 52%;
+  right: 25px;
+  transform: translateY(-50%);
+  color: #ffffff !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  z-index: 9;
+}
+
+.collection {
+  margin-bottom: 24px;
+}
+
+.collectionList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 7px;
+}
+
+.collectionList > div {
+  width: 100px;
+  text-align: center;
+  background: #11131f;
+  border: 1px solid rgba(83, 86, 251, 0.16);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 13px 5px;
+  color: #a7a9b5 !important ;
+}
+
+.collectionList .active {
+  background-image: linear-gradient(to right bottom, #f539f8, #5356fb);
+  border-radius: 4px;
+  padding: 1px;
+}
+
+.collectionList .active > div {
+  height: 100%;
+  padding: 12px 4px;
+  background: #11131f;
+}
+
+.footerForm {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 40px 40px 40px;
+  border-top: 1px solid rgba(83, 86, 251, 0.16);
+}
+
+.footerForm button {
+  width: 126px !important;
+  height: auto !important;
+  background: linear-gradient(134.38deg, #f539f8 0%, #c342f9 43.55%, #5356fb 104.51%);
+  border-radius: 41px;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  padding: 12px 16px !important;
+  border-radius: 41px !important;
+}
+
+.footerForm > div:first-child {
+  width: 126px !important;
+  color: #eb5757;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footerForm > div:last-child {
+  width: 126px !important;
+  padding: unset !important;
+}
+
+.borderR {
+  border-right: 1px solid rgba(83, 86, 251, 0.16);
+}

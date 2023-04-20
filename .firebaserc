@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "threeb-383407"
+  },
+  "targets": {},
+  "etags": {
+    "threeb-383407": {
+      "extensionInstances": {
+        "moralis-streams": "d58b3b8df3d43182e9f0f489cb07cdc1a8c414f0e44282db74ac61afa03830c9"
+      }
+    }
+  }
+}
